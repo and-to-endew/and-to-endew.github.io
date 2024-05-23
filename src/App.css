@@ -4,16 +4,19 @@
   flex-direction: column;
   height: auto;
   width: 100%;
+  min-height: 1000px;
 }
 .header{
   background-color: #F2B84B;
 }
 
 .title{
+  font: bold;
+  font-size: 50px;
   align-content: center;
   font-family: pump-bold;
   background-color: #F2B84B;
-  margin: 0px;
+  margin: 10px;
   height: 60px;
 }
 
@@ -36,11 +39,39 @@
 }
 
 .List{
-  height: 120px;
-  width: 400px;
+  height: 150px;
+  width: 80%;
   border:5px solid #203B8C;
   margin: 10px;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  font-family: pump-medium;
+}
+
+.List-top{
+  height: auto;
+
+}
+
+.List-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
+  align-content: space-between;
+}
+
+.List-date{
+  margin-right: 20px;
+}
+.List-delete{
+  width: auto;
+  height: 30px;
+  background-color: rgba(255, 0, 0, 0.812);
+  border-radius: 15px;
+  font-family: pump-bold;
+  font-size: 15px; ;
 }
 
 .right-container{
@@ -55,25 +86,35 @@
   width:80%;
   height: 50px;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 25px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .input-box{
-  border-radius: 15px;
+  margin: 2px;
+  box-sizing:border-box;
+  border-radius: 20px;
   width: 70%;
   height: 70%;
   border: 5px solid #203B8C;
-  margin: 2px;
+  color:#203B8C;
+  background-color: #F2B84B;
+  font-size: 90%;
+  font-family: pump-medium;
 }
 .confirm-button{
+  box-sizing: border-box;
   font-size: 20px;
   border:5px solid #203B8C;
   width:30%;
   height: 70%;
   margin: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: green;
   font-family: pump-bold;
+}
+
+.modal{
+
 }
