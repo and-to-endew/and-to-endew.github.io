@@ -1,0 +1,124 @@
+.blog{
+    background-color: #203B8C;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    min-height: 1000px;
+    align-content: center;
+  }
+  .header{
+    background-color: #F2B84B;
+  }
+  
+  .title{
+    font: bold;
+    font-size: 50px;
+    align-content: center;
+    font-family: pump-bold;
+    background-color: #F2B84B;
+    margin: 10px;
+    height: 60px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width:70%;
+    height: auto;
+  }
+  
+  .left-container{
+    flex-direction: column;
+    height: auto;
+    width:50%;
+  
+  }
+  .List-h2{
+    font-size: 20px
+  }
+
+  .List{
+    height: 150px;
+    width: 100%;
+    border:5px solid #F2B84B;
+    margin: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: pump-medium;
+  }
+  
+  .List-top{
+    height: auto;
+  
+  }
+  
+  .List-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    align-content: space-between;
+  }
+  
+  .List-date{
+    margin-right: 20px;
+  }
+  .List-delete{
+    width: auto;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.812);
+    border-radius: 15px;
+    font-family: pump-bold;
+    font-size: 15px; ;
+  }
+  
+  .right-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:40%;
+  }
+  
+  .search-box{
+    border:5px solid #F2B84B;
+    width:90%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .input-box{
+    margin: 2px;
+    box-sizing:border-box;
+    border-radius: 20px;
+    width: 70%;
+    height: 70%;
+    border: 5px solid #203B8C;
+    color:#203B8C;
+    background-color: #F2B84B;
+    font-size: 90%;
+    font-family: pump-medium;
+  }
+  .confirm-button{
+    box-sizing: border-box;
+    font-size: 20px;
+    border:5px solid #203B8C;
+    width:30%;
+    height: 70%;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: green;
+    font-family: pump-bold;
+  }
+  .modal{
+    margin-left: 7px;
+    font-family: pump-medium;
+    font-size: 30px;
+  }
