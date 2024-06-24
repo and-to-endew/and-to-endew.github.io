@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d5c87b7.css",
+    "main.js": "/static/js/main.7b38f67b.js",
+    "static/js/453.cd5b65e4.chunk.js": "/static/js/453.cd5b65e4.chunk.js",
+    "static/media/AnyConv.com__PumpOpti-DemiBold.ttf": "/static/media/AnyConv.com__PumpOpti-DemiBold.1a003421386fe4d0a9fa.ttf",
+    "static/media/AnyConv.com__PumpOpti-Medium.ttf": "/static/media/AnyConv.com__PumpOpti-Medium.bf7812c1fbd717f92fa8.ttf",
+    "index.html": "/index.html",
+    "main.9d5c87b7.css.map": "/static/css/main.9d5c87b7.css.map",
+    "main.7b38f67b.js.map": "/static/js/main.7b38f67b.js.map",
+    "453.cd5b65e4.chunk.js.map": "/static/js/453.cd5b65e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d5c87b7.css",
+    "static/js/main.7b38f67b.js"
+  ]
+}
