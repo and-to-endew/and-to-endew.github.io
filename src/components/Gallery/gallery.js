@@ -6,7 +6,7 @@ function Gallery() {
     <div className='body'>
       <div className='container'>
         <div className="gallery">
-          <div className="list"><img src={process.env.PUBLIC_URL + "/img/미니언즈1.jpg"} alt='미니언즈1'></img>
+          <div className="list"><img src={process.env.PUBLIC_URL + "/img/다운로드.jpg"} alt='미니언즈1'></img>
           </div>
           <div className="list"><img src={process.env.PUBLIC_URL + "/img/미니언즈2.jpg"}alt="미니언즈2"></img>
           </div>
